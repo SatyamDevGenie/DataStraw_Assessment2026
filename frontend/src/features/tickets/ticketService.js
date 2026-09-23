@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api/tickets';
+const API_URL = import.meta.env.VITE_API_URL || 'https://datastraw-0fff.onrender.com/api/tickets';
 
 const getTickets = async (statusFilter = '', searchQuery = '') => {
     const params = new URLSearchParams();
