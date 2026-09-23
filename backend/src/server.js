@@ -17,6 +17,10 @@ app.use(cors({
 
 app.use(express.json());
 
+app.get("/", (req, res) => {
+    res.send("Hello from DataStraw Backend")
+})
+
 // API Routes
 app.use('/api/tickets', ticketRoutes);
 
