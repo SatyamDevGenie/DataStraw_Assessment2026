@@ -104,7 +104,7 @@ Ensure you have the following installed on your machine:
 
 #### 1. Clone the Repository
 ```powershell
-git clone <YOUR_REPOSITORY_URL>
+git clone https://github.com/SatyamDevGenie/DataStraw_Assessment2026.git
 cd "DataStraw Assessment"
 ```
 
