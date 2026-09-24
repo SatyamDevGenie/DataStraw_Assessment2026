@@ -117,7 +117,7 @@ npm install
 Create/verify your `backend/.env` file:
 ```env
 PORT=5000
-MONGO_URI=mongodb+srv://satyam:123@cluster0.xlrvvsd.mongodb.net/DataStraw?retryWrites=true&w=majority&appName=Cluster0
+MONGO_URI=mongodb+srv://username:password@cluster0.xlrvvsd.mongodb.net/Database_Name?retryWrites=true&w=majority&appName=Cluster0
 CLIENT_URL=http://localhost:5173
 ```
 
@@ -164,7 +164,7 @@ Ensure `backend/.env` is configured:
 ```bash
 cat << 'EOF' > .env
 PORT=5000
-MONGO_URI=mongodb+srv://satyam:123@cluster0.xlrvvsd.mongodb.net/DataStraw?retryWrites=true&w=majority&appName=Cluster0
+MONGO_URI=mongodb+srv://username:password@cluster0.xlrvvsd.mongodb.net/Database_Name?retryWrites=true&w=majority&appName=Cluster0
 CLIENT_URL=http://localhost:5173
 EOF
 ```
